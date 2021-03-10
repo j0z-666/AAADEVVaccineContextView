@@ -1,0 +1,38 @@
+<div class="">
+    <div class="row" style="height: 100%;">
+        <div class="col-0 col-sm-0 col-md-0 col-lg-1 col-xl-2 container">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 row">
+            <div class="col-12">
+                <img src="ContextView/img/header.jpg" width="100%" />
+            </div>
+            <div class="col-4">
+                <img src="ContextView/img/leftbar.jpg" width="100%" />
+            </div>
+            <div class="col-8 container">
+                <!-- Informacion del usuario -->
+                <div class="col-12 card row" style="height: 100%; background: #ede9e8;">
+                    <div class="col-12" style="background: #1b5d83; color: #ffffff;">
+                        <p class="h5 text-center">Sistema de distribicion de vacunas</p>
+                        <p class="h5 text-center">Datos del paciente llamante:</p>
+                    </div>
+                    <hr>
+                    <p><b>Nombre: </b>{{name}}</p>
+                    <p><b>Cédula Ciudadana: </b>{{cedula}}</p>
+                    <p><b>Edad: </b>{{age}}</p>
+                    <p><b>Habilitacion: </b>{{isEnabled}}</p>
+                    
+                    <div style="justify-content: flex-end; display: flex;">
+                        <button type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#mainModal">
+                            <span class="btn-label"><i class="fa fa-eye"></i></span>
+                            View Data
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-0 col-sm-0 col-md-0 col-lg-1 col-xl-2">
+        </div>
+    </div>
+</div>
